@@ -23,9 +23,9 @@ def projects(request):
          'image': 'images/website.png',
          'link' : 'https://github.com/Repcak2k1/resume'},
 
-        {'title': 'Image Processing with Python',
+        {'title': 'Machine Learning basics',
          'image': 'images/image_processing.png',
-         'link' : 'https://github.com/Repcak2k1/machine-learning/blob/main/image%20processing.ipynb'}
+         'link' : 'https://github.com/Repcak2k1/machine-learning'}
     ]
     return render(request, 'projects.html', {'projects_show': pojects_show})
 
