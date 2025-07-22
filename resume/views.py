@@ -19,6 +19,10 @@ def projects(request):
          'image': 'images/ode.png',
          'link' : 'https://github.com/Repcak2k1/cs/tree/main/higher%20order%20ode%20project'},
 
+        {'title': 'Resume Website',
+         'image': 'images/website.png',
+         'link' : 'https://github.com/Repcak2k1/resume'},
+
         {'title': 'Image Processing with Python',
          'image': 'images/image_processing.png',
          'link' : 'https://github.com/Repcak2k1/machine-learning/blob/main/image%20processing.ipynb'}
