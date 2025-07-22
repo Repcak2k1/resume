@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{%load static%}
+{% block content1 %}
+<div class="row my-2 pt-2 justify-content-center">
+    <div class="col-12 d-flex justify-content-center">
+        <div class="glass-hero text-center p-4">
+            <div class="circular-image-container mb-2 mx-auto">
+                <img class="circular-image" src="{% static 'images/me.jpg' %}" alt="Profile Image">
+            </div>
+
+            <h5 class="text-light mb-2">Hi, my name is</h5>
+            <h1 class="text-light mb-2">Kacper Pawlowski</h1>
+            <h4 class="text-light mb-4">Data Scientist & Aerospace Engineer</h4>
+
+            <div class="contact-info text-light mb-3 fs-5">
+                <p class="mb-1">📧 kacpercom55@gmail.com</p>
+                <p>📞 +48 605 847 199</p>
+            </div>
+
+            <div class="d-flex justify-content-center mt-3">
+                <a href="https://www.linkedin.com/in/kacper-pawłowski-8a7504250/" target="_blank">
+                    <img src="{% static 'images/linkedin.png' %}" alt="LinkedIn" width="60" height="60" class="social_links mx-2">
+                </a>
+                <a href="https://github.com/Repcak2k1" target="_blank">
+                    <img src="{% static 'images/github.png' %}" alt="GitHub" width="60" height="60" class="social_links mx-2">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock content1 %}

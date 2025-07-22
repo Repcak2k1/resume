@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(10,0,30);
+}
+
+.navbar-nav .nav-link:hover {
+    font-weight: bold;
+    color: #22e1bbfc;
+}
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar-dark{
+    background-color: rgb(35, 4, 84);
+}
+
+.circular-image-container {
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #b3d1ccfc;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-image{
+    width: 120%;
+    height: 100%;
+    display: block;
+}
+
+.social_links {
+    overflow: hidden;
+    border: 5px solid #b3d1ccfc;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_image{
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.card.custom-dark-card {
+    background-color: #0b7ea4 !important;
+    color: #e0e0e0;
+    border: 1px solid #b3d1ccfc !important;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card.custom-dark-card .card-subtitle {
+    color: #d1aea8;
+}
+
+.project-card {
+    background-color: #0b7ea4 !important;
+    color: #e0e0e0;
+    border: 1px solid #b3d1ccfc !important;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 16px #22e1bbfc;
+}
+
+.project-image {
+    border-radius: 8px;
+    width: 100%;
+    height: 220px;
+    object-fit: fill;
+}
+
+
+.glass-hero {
+    background: rgba(20, 20, 40, 0.4);
+    border-radius: 20px;
+    padding: 2rem;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 0 30px rgba(0, 255, 180, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 700px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.text-glow {
+    color: #0ff;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
+}
+
+.circular-image-container {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid #0ff;
+}
+
+.circular-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.social_links {
+    transition: transform 0.2s ease;
+}
+
+.social_links:hover {
+    transform: scale(1.1);
+}
