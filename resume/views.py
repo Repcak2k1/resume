@@ -23,7 +23,7 @@ def projects(request):
          'image': 'images/website.png',
          'link' : 'https://github.com/Repcak2k1/resume'},
 
-        {'title': 'Machine learning basics with Python',
+        {'title': 'Machine Learning basics',
          'image': 'images/image_processing.png',
          'link' : 'https://github.com/Repcak2k1/machine-learning'}
     ]
